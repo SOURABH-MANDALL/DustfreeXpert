@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <title>DustFreeXpert</title>
+</head>
+<body>
+  <nav class="navbar">
+  <div class="nav-left">
+    <div class="logo"><img src="./img/logo.jpg"  width="200"></div>
+  </div>
+
+  <button class="menu-toggle" aria-label="Toggle Menu">
+    ☰
+  </button>
+
+  <ul class="nav-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#ourservices">Services</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+</nav>
+<!-- caution -->
+ <div class="caution-tape">
+  <div class="tape-text">
+     ONLY SUNDAYS • ONLY WINDOWS LAPTOPS  • ONLY SUNDAYS • ONLY WINDOWS LAPTOPS  • KEYBOARD • ONLY SUNDAYS • ONLY WINDOWS LAPTOPS  • ONLY SUNDAYS • Only WINDOWS LAPTOPS  • KEYBOARD •
+  </div>
+</div>
+
+  <!-- Slider -->
+  <section class="hero">
+  <div class="hero-text">
+    <h1>Give Your Laptop a Fresh Start</h1>
+    <p>
+     Over time, dust and grime build up inside your laptop, slowing it down and causing overheating. Our safe, thorough cleaning restores performance and keeps your device looking and feeling new.
+    </p>
+  </div>
+
+  <div class="hero-image">
+    <img src="./img/img4.jpg" alt="Hero Image">
+  </div>
+</section>
+ 
+<!-- WHY -->
+ <section class="why-clean">
+  <h2>Why You Need to Clean Your Laptop</h2>
+
+  <div class="why-grid">
+    <div class="why-card">
+      <div class="icon">💨</div>
+      <h3>Improve Performance</h3>
+      <p>Dust slows down airflow and causes your laptop to overheat. Cleaning boosts speed and efficiency.</p>
+    </div>
+
+    <div class="why-card">
+      <div class="icon">🔥</div>
+      <h3>Prevent Overheating</h3>
+      <p>Overheating can damage internal parts. Regular cleaning keeps temperatures low and safe.</p>
+    </div>
+
+    <div class="why-card">
+      <div class="icon">🧼</div>
+      <h3>Reduce Germs</h3>
+      <p>Keyboards and touchpads collect bacteria. Cleaning keeps your laptop hygienic and healthy.</p>
+    </div>
+  </div>
+</section>
+ <!-- CLEANING -->
+ <section id="ourservices" class="services" >
+  <h2>Our Services</h2>
+
+  <div class="service-grid">
+    <div class="service-card">
+       <img src="./img/img1.jpg" alt="Basic Cleaning">
+      <div class="card-top">
+        <h3>Basic Cleaning</h3>
+      </div>
+      <div class="price-card">
+        <span class="currency">₹</span>
+        <span class="amount">299</span>
+      </div>
+      <p>Quick external cleaning to remove dust, fingerprints, and surface dirt.</p>
+      
+    </div>
+
+    <div class="service-card">
+      <img src="./img/INTERNEL.avif" alt="Basic Cleaning">
+      <div class="card-top">
+        <h3>Internal Cleaning</h3>
+      </div>
+      <div class="price-card">
+        <span class="currency">₹</span>
+        <span class="amount">799</span>
+      </div>
+      <p>Complete internal cleaning including fans, vents, and motherboard for better airflow.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="./img/img2.jpg" alt="Basic Cleaning">
+      <div class="card-top">
+        <h3>Thermal Paste Change</h3>
+      </div>
+      <div class="price-card">
+        <span class="currency">₹</span>
+        <span class="amount">1299</span>
+      </div>
+      <p>Replace old thermal paste to reduce overheating and restore optimal cooling.</p>
+    </div>
+  </div>
+</section>
+
+ <!-- ABOUT -->
+  <section class="about" id="about">
+  <div class="about-content">
+    <h2>About Us</h2>
+    <p>
+      We are a professional laptop cleaning service dedicated to improving your laptop’s performance,
+      cooling, and hygiene. Our expert technicians clean both the exterior and interior components,
+      ensuring your device runs smoother and lasts longer.
+    </p>
+    <p>
+      From basic cleaning to thermal paste replacement, we use safe and high-quality tools to
+      deliver fast, reliable service. Your laptop is in good hands with us.
+    </p>
+  </div>
+
+  <div class="about-image">
+    <img src="./img/img1.jpg" alt="About Image">
+  </div>
+</section>
+
+
+<!-- footer -->
+ <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <h3><img src="./img/logo.png" width="200" alt=""></h3>
+      <p>Professional laptop cleaning service. Fast, safe, and reliable.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <a href="#">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+    </div>
+
+  <div class="footer-bottom">
+    <p>© 2026. All rights reserved.</p>
+  </div>
+</footer>
+
+<script > const toggle = document.querySelector('.menu-toggle');
+  const navLinks = document.querySelector('.nav-links');
+
+  toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });</script> 
+</body>
+</html>
